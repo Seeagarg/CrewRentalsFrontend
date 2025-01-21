@@ -1,0 +1,44 @@
+.role-selection-middlesec{
+  
+    /* max-width: 90%; */
+    width: 55%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #eef3f7;
+    /* border : 2px solid red; */
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+.role-selection-options-home-admin{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+.role-option-home-admin{
+    /* border : 2px solid red; */
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: 20px;
+    gap: 75px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.role-option-home-admin img{
+    width: 125px;
+    border-radius: 10px;
+}
+.userView{
+    /* border: 2px solid red; */
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius:5px ;
+    color: rgb(117, 181, 237);
+}

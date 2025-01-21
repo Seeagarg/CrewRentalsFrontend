@@ -1,0 +1,199 @@
+.card-workers {
+    
+    margin-bottom: 20px;
+    /* width: 200px; */
+    /* width:40vw; */
+    /* height:80vh; */
+    /* background-color: #fff; */
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgba(5, 58, 101, 0.757);
+    /* width:1000px; */
+
+    transition: transform 0.2s ease-in-out;
+    /* border: 2px solid rgb(237, 10, 10); */
+}
+.filter-section{
+    /* margin-left: 100px; */
+    margin-right: 50px;
+    padding: 20px;
+    background-color: #fff;
+    /* margin-top:250px; */
+    /* border : 6px solid black; */
+    /* border : 6px solid red; */
+   /* margin-bottom: 250px; */
+   max-width:600px;
+   height: fit-content;
+}
+
+.workers-page-workers-group{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.workers-page-workers-group-12{
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.workers-page-workers{
+    display: flex;
+    flex-direction: row;
+    /* border : 2px solid red; */
+    /* margin:0 100px; */
+    /* margin-top: 100px;  */
+    margin-bottom: 100px; 
+}
+
+.workers-page-workers-contractor{
+    display: flex;
+    flex-direction: row;
+    /* border : 2px solid red; */
+    /* margin:0 100px; */
+    /* margin-top: 100px;  */
+    margin-bottom: 100px; 
+}
+
+.Container-main-worker{
+
+    /* margin-left: 250px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 4px solid  blue; */
+    /* max-width: 800px; */
+    /* margin-top:250px; */
+
+}
+
+
+.card-workers:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+.image-container-workers {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    /* border: 2px solid red; */
+    margin :auto;
+}
+
+.image-container-workers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+    /* margin-left: 10rem; */
+}
+
+.details-workers {
+    padding: 20px;
+    background-color: rgb(240, 236, 236);
+    margin: 14px 36px 10px 45px;
+    border-radius: 10px;
+}
+
+.details-workers h5 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.workers-container-workers {
+    /* border  :2px solid red; */
+    /* display: flex; */
+    /* grid-template-columns: repeat(3, 1fr);  */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Show three cards in a row */
+    grid-gap: 5px; /* Set the gap between cards */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* max-width: 50%; */
+    /* display: flex; */
+    /* flex-direction: row; */
+
+}
+
+@media (min-width: 768px) {
+    .card-workers {
+        width: calc(33.33% - 20px);
+    }
+}
+
+
+
+/* filter section field */
+
+
+.filter-section {
+    
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+
+fieldset input[type="checkbox"] {
+    display: none;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 8px 10px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+fieldset label:hover {
+    background-color: #ddd;
+}
+
+fieldset input[type="checkbox"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* .spinner{
+    margin-top:100px;
+} */
+/*
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  button[type="submit"]:focus {
+    outline: none;
+  } */
+  

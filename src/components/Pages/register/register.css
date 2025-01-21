@@ -1,0 +1,128 @@
+
+.Container{
+    /* border: 5px solid red; */
+    display: flex;
+    flex:1;
+    height:100vh;
+    width: 100%;
+     /* border: 2px solid red; */
+}
+.leftSide{
+    position: relative;
+    width: 50%;
+}
+.leftSide img{
+    /* margin-top: 60px; */
+    margin-left: 100px;
+    width : 85%;
+    height: 60%;
+    /* object-fit:fill; */
+    /* background-color: transparent; */
+    /* border: 2px solid red; */
+
+}
+
+
+.transparent-layer {
+    padding: 20px;
+    font-weight : bold;
+    margin-top: 30px;
+    font-size: 35px;
+    text-align: center;
+   /* border: 2px solid red; */
+    
+  }
+
+.rightSide{
+    /* background-color: rgb(61, 55, 55); */
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    background-color: #dde5f4;
+    /* background-color: #eef3f7; */
+     /* border: 2px solid yellow; */
+
+    /* justify-content: center; */
+}
+
+.signupForm{
+    width: text-content;
+    /* padding: 70px; */
+    /* height: 80%; */
+    /* border : 2px solid red; */
+     border-radius: 30px;
+     padding: 10px;
+     margin: 0 auto;
+     background-color: white;
+}
+
+
+.signupuserInput{
+    /* border: 0.5px solid rgb(131, 232, 244); */
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.signupuserInput input{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 3px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(161, 228, 247);
+   
+}
+
+.signupuserInput input:focus {
+    box-shadow: 1px solid rgb(37, 165, 220);
+    outline: none;
+  }
+
+.signupBtn{
+    width: 100%;
+    background-color:#007bff;
+    font-size: 25px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px ;
+    border: 2px solidrgb(37, 165, 220);
+    /* align-items: center; */
+}
+.LoginPage{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    color:rgb(37, 165, 220);
+    font-weight: 500;
+}
+.login{
+    cursor: pointer;
+    font-weight: 700;
+}
+.forgetPassword{
+    color: rgb(37, 165, 220);
+    cursor: pointer;
+}
+
+
+.OtpForm{
+    display: flex;
+    flex-direction: column;
+
+    /* border: 2px solid red; */
+    /* height: 50vh;
+    width: 80vh; */
+    /* justify-content: center; */
+     /* margin-top: 5rem; */
+}
+
+/* .optform{
+    width: 80px;
+    border: 2px solid red;
+} */

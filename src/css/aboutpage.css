@@ -1,0 +1,111 @@
+.about-page{
+    /* margin-left: 400px; */
+    margin-top:100px;
+   margin-bottom: 250px;
+}
+
+.about-page-container-about{
+    /* border : 2px solid red; */
+    background-color: #eef3f7;
+    border-radius: 30px;
+    padding: 30px;
+
+    max-width: 600px;
+    margin-left: 200px;
+}
+
+.about-page-container-about p {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about-page-container-challenges{
+    background-color: #eef3f7;
+    border-radius: 30px;
+    padding: 30px;
+
+    max-width: 800px;
+    margin-left: 100px;
+}
+
+.about-page-container-challenges p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.about-page-container-challenges li{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-gif{
+    margin-top: 20px;
+    /* border : 2px solid red; */
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-section-image-about-page{
+    /* border : 2px solid red; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-left: 250px;
+    /* margin-top: 50px; */
+}
+
+.hero-section-image-about-page img{
+    
+    width: 380px;
+    height: 380px;
+    border-radius:  30px;
+}
+
+
+.about-page-container-problems{
+    /* border : 2px solid red; */
+    /* margin-top: 20px; */
+    background-color: #eef3f7;
+    border-radius: 30px;
+    padding: 30px;
+    max-width: 800px;
+    margin-left: 150px;
+}
+
+.about-page-container-problems p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about-page-container-problems li {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-section-image-about-page-problems{
+    /* border : 2px solid red; */
+    margin-left: 100px;
+    /* margin-top: 50px; */
+}
+
+.hero-section-image-about-page-problems img{
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    border-radius:  30px;
+}
+
+.hero-section-image-about-page-challenges {
+    /* border : 2px solid red; */
+    margin-left: 100px;
+    /* margin-top: 50px; */
+}
+
+.hero-section-image-about-page-challenges img{
+    margin-top: 100px;
+    width: 600px;
+    height: 500px;
+    border-radius:  50%;
+}
+
+

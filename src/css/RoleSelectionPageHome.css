@@ -1,0 +1,143 @@
+
+.role-selection-page-home {
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #eef3f7;
+  /* border : 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  /* border: 2px solid red; */
+}
+.role-selection-main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.role-selection-page-register {
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: #eef3f7;
+  /* border : 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  /* border: 2px solid red; */
+  margin-bottom: 50px;
+}
+
+.role-selection-register-div{
+  margin-top: 100px;
+  /* border: red solid 2px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+.role-selection-page-home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.role-selection-options-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.role-option-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+  /* box-shadow:   20px rgba(9, 111, 122, 0.2); */
+}
+
+/* .role-option-home:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+} */
+
+.role-option-home img {
+  width: 260px;
+  height: 260px;
+  border-radius: 80%;
+  border: 5px solid #a5edf1;
+  transition: transform 0.2s ease-in-out;
+  
+}
+
+.role-option-home  :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.role-option-home img  :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.role-option-home span {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+  .role-selection-page-home h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .role-option-home {
+    margin: 10px;
+  }
+  
+  .role-option-home img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .role-option-home span {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .role-selection-page-home h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .role-selection-options-home {
+    flex-direction: column;
+  }
+  
+  .role-option-home {
+    margin: 5px;
+  }
+  
+  .role-option-home img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .role-option-home span {
+    font-size: 16px;
+  }
+}

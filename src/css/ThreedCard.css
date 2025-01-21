@@ -1,0 +1,105 @@
+.threedmapHouse {
+    /* display: flex; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+
+    background-color: #eef3f7;
+    /* border: 2px solid rgba(61, 120, 230, 0.549); */
+    height: text-content;
+    /* border: 5px solid red; */
+}
+
+.house-image {
+    flex: 1;
+    display: flex;
+    /* justify-content: center; */
+    /* margin-left: 250px; */
+    align-items: center;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-bottom: 240px;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    width: max-content;
+
+}
+
+.house-image img {
+    width: 900px;
+    height: 600px;
+    border-radius: 30px;
+    /* box-shadow: 0 0 100px rgba(5, 58, 101, 0.741); */
+    transition: transform 0.4s ease-in-out;
+
+
+}
+
+.house-info li {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.house-image:hover {
+    transform: scale(1.1);
+}
+
+
+
+.house-info {
+    /* flex: 1; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    background-color: #eee;
+    padding: 20px;
+    float: right;
+    height: text-content;
+    width: auto;
+
+    margin-left: 410px;
+    margin-top: -490px;
+    border: 2px solid rgba(61, 120, 230, 0.549);
+    border-radius: 30px;
+    /* width: 400px; */
+    box-shadow: 0 0 100px rgba(5, 58, 101, 0.757);
+
+
+
+}
+
+.custom-button-3d {
+    
+    background: linear-gradient(to right, rgb(61, 120, 230) 0%, rgb(255, 0, 128) 100%);
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    animation: gradient 5s ease-in-out infinite;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+  }
+
+
+.custom-button-3d:hover {
+    background: linear-gradient(to right, rgb(255, 0, 128) 0%, rgb(61, 120, 230) 100%);
+}
+
+.personilised-3d {
+    margin-top: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

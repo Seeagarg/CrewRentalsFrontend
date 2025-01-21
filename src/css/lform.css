@@ -1,0 +1,210 @@
+.registration-form3d {
+  margin-top: 125px;
+  margin-bottom: 110px;
+  max-width: 500px;
+  /* margin: 20px ; */
+  padding: 50px;
+  margin-left: 600px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+  }
+  
+  /* 
+
+  .labour-form {
+
+    max-width: 800px;
+ 
+    padding: 50px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 20px;
+   
+
+
+    border: 1px solid #cfcccc;
+    border-radius: 30px;
+    background-color: #fafafaf5;
+    
+
+
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 1.5em;
+
+  }
+  
+  input,
+  select {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #d8d6d6;
+    border-radius: 40px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+   */
+
+
+   .labour-form {
+    max-width: 1200px;
+    /* margin: 10px ; */
+    padding: 50px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* padding: 1rem; */
+    /* border: 20px solid #181818; */
+    border: 1px solid #cfcccc;
+    border-radius: 30px;
+    background-color: #fafafaf5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+
+  }
+
+  .roleform {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    /* gap: 2rem; */
+    align-items: center;
+    width: 1100px;
+     margin: auto; 
+
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    
+
+  }
+
+
+
+
+   .display1{
+
+    gap : 20px;
+    align-items: center;
+    width: 600px;
+    /* border : 1px solid red; */
+    /* margin: auto; */
+
+   }
+  .display2{
+    display: flex;
+    flex-direction: row;
+    gap : 80px;
+    align-items: center;
+    /* border : 1px solid red; */
+    max-width: 100%;
+    margin-bottom:20px ;
+    /* flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 60%; 
+    /* background-color: rgb(151, 223, 243); */
+    /* border: 2px solid yellow; */
+  }
+
+
+
+   .registration-form {
+    max-width: 500px;
+    margin: 20px;
+    padding: 50px;
+    margin-left: 600px;
+    /* padding: 1rem; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  
+  h1 {
+    text-align: center;
+  }
+  
+ 
+  
+  label {
+    font-weight: bold;
+    font-size: 1.5em;
+    grid-column: span 2;
+
+  }
+  
+  input,
+  select {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #d8d6d6;
+    border-radius: 40px;
+  }
+
+  .rolebutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    /* padding: 0.5rem 1rem; */
+    font-size: 1.8rem;
+    cursor: pointer;
+    width: 200px;
+    /* height: 50px; */
+    margin: 10px;
+    
+    /* font-size: 25px; */
+    font-weight: bold;
+    /* border: 10px solid red; */
+    
+    
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  #lform{
+    margin-top:120px;
+  }

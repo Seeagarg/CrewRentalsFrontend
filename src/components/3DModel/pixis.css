@@ -1,0 +1,17 @@
+.role-selection-page-home-aiimage{
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/006/469/271/original/abstract-white-background-with-halftone-texture-free-vector.jpg"); */
+    background-image: url("https://cdn.dribbble.com/users/32512/screenshots/4787574/light_ai_design_by_gleb.gif");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    max-width: 90%;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #eef3f7;
+    /* border : 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
