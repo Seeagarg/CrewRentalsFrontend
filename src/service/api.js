@@ -3,7 +3,7 @@
 import axios from 'axios'
 
 // const URL="http://localhost:8000"
-const URL = 'https://crew-rentals-backend.vercel.app'
+const URL = 'https://crewrentalsbackend.onrender.com'
 
 export {URL};
 // const URL="https://rentalapi2.onrender.com"
