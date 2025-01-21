@@ -39,6 +39,7 @@ function HeaderAdmin() {
               <Link to="/" className='text-dark me-3 mt-2 fs-4 fw-bold' style={{ textDecoration: "none", }}>Home</Link>
               <Link to="/about" className='text-dark me-3 mt-2 fs-4 fw-bold' style={{ textDecoration: "none" }}>About</Link>
               <Link to="/contact" className='text-dark me-3 mt-2 fs-4 fw-bold' style={{ textDecoration: "none" }}>Contact</Link>
+              
               {/* <Link to="/aiChat" className='text-dark me-3 mt-2 fs-4 fw-bold' style={{ textDecoration: "none" }}>Chat Here</Link> */}
               <Link to="/userDashbord" className="text-dark me-3 mt-2 fs-5 fw-bold"><AccountCircleIcon fontSize="large" /></Link>
            {

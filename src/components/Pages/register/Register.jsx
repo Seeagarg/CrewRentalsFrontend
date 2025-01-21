@@ -72,8 +72,13 @@ const Register = () => {
 
   useEffect(() => {
     const auth = localStorage.getItem("user");
-    if (auth) {
-      navigate("/roleSelectionPage");
+    const role = localStorage.getItem("role")
+    console.log(role,auth)
+    if(role == 'admin'){
+      navigate("/adminDashboard");
+    }
+    else if (auth) {
+      navigate('/roleSelectionPage')
     }
   });
   const temp = [];

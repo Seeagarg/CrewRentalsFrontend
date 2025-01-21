@@ -14,15 +14,18 @@ import ChatIcon from '@mui/icons-material/Chat';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import "../../css/home.css";
 
-
 import logo from "../../Images/logo.png"
 import { AccountContext } from '../../context/AccountProvider';
 import { useContext } from 'react';
+import SensorOccupiedIcon from '@mui/icons-material/SensorOccupied';
+import DashboardIcon from '@mui/icons-material/Dashboard';
 
 function Header() {
   const navigate = useNavigate();
 
   let auth=localStorage.getItem("user");
+  let role=localStorage.getItem("role");
+
   
   const handleLogout=()=>{
         localStorage.clear();
@@ -36,6 +39,8 @@ function Header() {
   const handlelogoCLick =()=>{
     navigate("/")
   }
+
+
 
   return (
     <>
@@ -57,14 +62,35 @@ function Header() {
                 <InfoIcon fontSize="medium" />
                 About
               </Link>
+             {
+              role !== 'admin' && 
               <Link to="/contact" className='text-dark me-3 mt-2 fs-4 fw-bold d-flex flex-column align-items-center hover-icon' style={{ textDecoration: "none", width: "80px" }}>
                 <ContactMailIcon fontSize="medium" />
                 Contact
               </Link>
+             }
               <Link to="/chatDialog" className='text-dark me-3 mt-2 fs-4 fw-bold d-flex flex-column align-items-center hover-icon' style={{ textDecoration: "none", width: "80px" }}>
                 <ChatIcon fontSize="medium" />
                 Chat
               </Link>
+              {
+                role !== 'admin' && 
+                <Link to="/roleSelectionPage" className='text-dark me-3 mt-2 fs-4 fw-bold d-flex flex-column align-items-center   hover-icon' style={{ textDecoration: "none", width: "80px" }}>
+                <SensorOccupiedIcon fontSize="medium"  className="mb-0 " />
+                <span className="mt-0">Role</span>
+              </Link>
+              }
+
+              {
+                role == 'admin' && 
+                <Link to="/adminDashboard" className='text-dark me-3 mt-2 fs-4 fw-bold d-flex flex-column align-items-center   hover-icon' style={{ textDecoration: "none", width: "110px" }}>
+                <DashboardIcon fontSize="medium"  className="mb-0 " />
+                <span className="mt-0">Dashboard</span>
+              </Link>
+              }
+              
+              
+             
               <div className='profile_Image_user'>
               <Link to="/userDashbord" className="text-dark me-3 mt-2 fs-5 fw-bold">
                   <img src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-male-avatar-simple-cartoon-design-png-image_1934458.jpg" alt="" />
@@ -76,7 +102,14 @@ function Header() {
               {
                 auth ?
                   <>
+                    <div style={{display:'flex',flexDirection:'column'}}>
                     <span style={{ fontWeight: "700", fontSize: "22px" }}> ({JSON.parse(auth).fullname.split(" ")[0]}) &nbsp;</span>
+                    {
+                      role == 'admin' && 
+                      <span style={{ fontWeight: "700", fontSize: "22px" }}> ({role}) &nbsp;</span>
+
+                    }
+                    </div>
                     <button onClick={handleLogout}>Logout</button> </>
                   :
                   <button onClick={handleClick}>Register/ Login</button>

@@ -15,8 +15,6 @@ const About = () => {
         <h1>About Crew-Rental</h1>
         <div className="about-gif">
           <motion.div
-
-            
             className="about-page-container-about"
             initial={{ y: -1000 }}
             animate={{ y: 0 }}

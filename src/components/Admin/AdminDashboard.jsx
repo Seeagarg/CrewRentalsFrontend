@@ -4,6 +4,7 @@ import Footer from "../../components/Footer";
 import HeroSection from "../../components/HeroSection";
 import Adminnavbar from "./Adminnavbar";
 import MiddleSec from "./MiddleSec"
+import Header from '../Pages/Header';
 
 
 
@@ -11,7 +12,7 @@ function  AdminDashboard  ()  {
   return (
     <>
 
-    <HeaderAdmin/>
+    <Header/>
     <Adminnavbar/>
     {/* <HeroSection/> */}
     <MiddleSec/>
